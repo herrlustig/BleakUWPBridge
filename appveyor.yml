@@ -1,8 +1,8 @@
 os: Visual Studio 2017
-configuration: Release
-platform: Any CPU
+#configuration: Release
+#platform: Any CPU
 build:
   project: BleakUWPBridge.sln
   parallel: true
-  verbosity: detailed
+  verbosity: normal
 deploy: off
