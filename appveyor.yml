@@ -7,4 +7,7 @@ build:
   project: BleakUWPBridge.sln
   parallel: true
   verbosity: normal
+artifacts:
+  - path: BleakUWPBridge\bin\$(configuration)
+    name: bleakbridge
 deploy: off
